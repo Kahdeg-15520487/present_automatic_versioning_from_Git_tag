@@ -1,0 +1,14 @@
+presentation on automatic versioning using git tag
+
+flows:
+	current flow:
+	proposal 1:
+	proposal 2:
+caveat: note the discussion down for each caveat
+	changelog format
+    communication channel to transfer the changelog to devops
+    version numbering: semver
+    solution to versioning commit and release
+    git tag format
+    multi project repo: PCS-API and AMS-API
+    tool for managing git tag

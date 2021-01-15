@@ -1,0 +1,33 @@
+caveat:
+    who (or what) will generate the changelog
+    changelog format
+        proposed:
+            [version number]
+                Features:
+                    PBI #1234 Implement ABC XYZ
+                Bug fix:
+                    Bug # 1234 Wrong ABC in XYZ
+                Miscelaneous:
+                    * Add new user for tester
+                    * Refactor Authorization module
+    communication channel to transfer the changelog to devops
+        proposed:
+            in a file called CHANGELOG.MD in the root of source code
+    version numbering: semver
+    solution to versioning commit and release
+        proposed:
+            fe:
+                autobump: bump based on feature commit count
+            be:
+                manually bump in csproj
+    git tag format
+        proposed:
+            prefix with "v-"
+    multi project repo: PCS-API and AMS-API
+        commit for PCS-API is prefixed with "v-"
+        commit for PCS-API is prefixed with "ams-v-"
+    tool for managing git tag
+        proposed: 
+            Azure Devops/Repos/Tags
+    
+        

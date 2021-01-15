@@ -1,0 +1,8 @@
+* who (or what) will generate the changelog
+* changelog format
+* communication channel to transfer the changelog to devops
+* version numbering: semver
+* solution to versioning commit and release
+* git tag format
+* multi project repo: PCS-API and AMS-API
+* tool for managing git tag
